@@ -3,6 +3,7 @@
   static void Main(String[] args)
   {
     Sum();
+    Sub();
   }
 
   static void Sum()
@@ -17,5 +18,9 @@
     float result = n1 + n2;
 
     Console.Write($"Result is: {result}");
+  }
+  static void Sub()
+  {
+    
   }
 }
