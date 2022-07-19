@@ -1,6 +1,11 @@
-﻿internal class Program
+﻿class Program
 {
-  private static void Main(string[] args)
+  static void Main(String[] args)
+  {
+    Sum();
+  }
+
+  static void Sum()
   {
     Console.Clear();
     Console.Write("Enter first number: ");
